@@ -1,0 +1,56 @@
+@tailwind base;
+
+body {
+  @apply text-black;
+  font-family: Be Vietnam;
+}
+
+@font-face {
+  font-family: Quicksand;
+  font-weight: 400;
+  src: url(/styles/fonts/Quicksand-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: Quicksand;
+  font-weight: 700;
+  src: url(/styles/fonts/Quicksand-Bold.ttf) format('ttf');
+}
+@font-face {
+  font-family: Be Vietnam;
+  font-weight: 100;
+  src: url(/styles/fonts/BeVietnam-Thin.ttf) format('ttf');
+}
+@font-face {
+  font-family: Be Vietnam;
+  font-weight: 200;
+  src: url(/styles/fonts/BeVietnam-Light.ttf) format('ttf');
+}
+@font-face {
+  font-family: Be Vietnam;
+  font-weight: 300;
+  src: url(/styles/fonts/BeVietnam-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: Be Vietnam;
+  font-weight: 400;
+  src: url(/styles/fonts/BeVietnam-Medium.ttf) format('ttf');
+}
+@font-face {
+  font-family: Be Vietnam;
+  font-weight: 500;
+  src: url(/styles/fonts/BeVietnam-SemiBold.ttf) format('ttf');
+}
+@font-face {
+  font-family: Be Vietnam;
+  font-weight: 600;
+  src: url(/styles/fonts/BeVietnam-Bold.ttf) format('ttf');
+}
+@font-face {
+  font-family: Be Vietnam;
+  font-weight: 700;
+  src: url(/styles/fonts/BeVietnam-ExtraBold.ttf) format('ttf');
+}
+
+@tailwind components;
+
+@tailwind utilities;
